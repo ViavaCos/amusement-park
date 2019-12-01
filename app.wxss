@@ -1,0 +1,8 @@
+text{
+    font-family: FZLTHJW--GB1-0;
+    color: #3c3c3c;
+}
+
+image{
+  vertical-align: middle;
+}

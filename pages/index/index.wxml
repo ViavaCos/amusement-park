@@ -1,0 +1,42 @@
+<!-- 轮播图 -->
+<swiper autoplay circular indicator-dots indicator-color="rgab(255,255,255,.6)" indicator-active-color="#fff">
+  <swiper-item>
+    <image src="../../static/uploads/slide_1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../static/uploads/slide_2.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../static/uploads/slide_3.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../static/uploads/slide_4.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../static/uploads/slide_5.jpg"></image>
+  </swiper-item>
+</swiper>
+
+<view class="title">
+  <text>乐园活动</text>
+</view>
+
+<!-- 楼层区域 -->
+<view class="item">
+  <image src="../../static/uploads/item_1.png"></image>
+  <view class="textarea">
+    <view class="content">
+      <text>疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</text>
+    </view>
+    <view class="time">
+      <text>200人已报名</text>
+      <text>本周六开始</text>
+    </view>
+    <view class="status">
+      <text>免费</text>
+    </view>
+    <view class="currentStatus">
+    <text>进行中</text>
+    </view>
+  </view>
+</view>

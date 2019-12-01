@@ -1,0 +1,72 @@
+page {
+  background-color: #f0f0f0;
+}
+
+swiper {
+  height: 320rpx;
+}
+
+swiper-item image, .item image {
+  width: 750rpx;
+  height: 320rpx;
+}
+
+.title {
+  height: 82rpx;
+  /* padding: 22rpx 0 0 30rpx; */
+  padding-left: 30rpx;
+  line-height: 80rpx;
+}
+
+.title text {
+  font-family: FZLTCHJW--GB1-0;
+  font-size: 28rpx;
+  font-weight: 700;
+}
+
+/* 楼层区域 */
+
+.item .textarea {
+  padding: 20rpx 0 0 30rpx;
+  height: 180rpx;
+  background-color: #fff;
+  position: relative;
+}
+
+.item .content {
+  width: 590rpx;
+}
+
+.item .content text {
+  font-size: 30rpx;
+  letter-spacing: 0.42rpx;
+  line-height: 42rpx;
+}
+
+.item .time {
+  position: absolute;
+  bottom: 22rpx;
+}
+
+.item .time text {
+  font-size: 22rpx;
+  color: #b4b4b4;
+  margin: 0 15rpx;
+}
+
+.item .status {
+  position: absolute;
+  top: 20rpx;
+  right: 30rpx;
+}
+
+.item .status text {
+  font-size: 30rpx;
+  color: #fe6249;
+}
+
+.item .currentStatus {
+  background-image: url(../../static/images/status_active.png);
+  width: 136rpx;
+  height: 58rpx;
+}
