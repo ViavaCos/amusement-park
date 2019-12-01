@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/mine/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -9,6 +10,32 @@
     "navigationBarTitleText": "Amusement Park",
     "navigationBarTextStyle": "white"
   },
-  "style": "v2",
+  "tabBar": {
+    "backgroundColor": "#FECA49",
+    "color": "#D78B09",
+    "position": "bottom",
+    "selectedColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./icons/home-default.png",
+        "selectedIconPath": "./icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "卡卷",
+        "iconPath": "./icons/ticket-default.png",
+        "selectedIconPath": "./icons/ticket-active.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "./icons/face-default.png",
+        "selectedIconPath": "./icons/face-active.png"
+      }
+    ]
+  },
+
   "sitemapLocation": "sitemap.json"
 }
